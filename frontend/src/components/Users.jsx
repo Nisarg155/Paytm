@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react";
 // import {Button} from "./Button"
-// import axios from "axios";
+// 
 // import { response } from "express";
 // import { Navigate, useNavigate } from "react-router-dom";
 
@@ -57,7 +57,7 @@
 
 import { useEffect, useState } from "react";
 import { Button } from "./Button";
-import axios from "axios";
+
 import { useNavigate } from "react-router-dom";
 
 export const Users = () => {
