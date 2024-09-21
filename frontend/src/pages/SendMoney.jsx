@@ -21,7 +21,7 @@ export const SendMoney = () => {
         setError("");
 
         try {
-            await axios.post("http://localhost:4000/api/v1/account/transfer", {
+            await axios.post("https://paytm-hazel.vercel.app/api/v1/account/transfer", {
                 to: id,
                 amount
             }, {

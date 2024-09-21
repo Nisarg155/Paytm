@@ -10,7 +10,7 @@ export const Dashboard = () => {
     useEffect(() => {
         const fetchBalance = async () => {
             try {
-                const response = await axios.get("http://localhost:4000/api/v1/account/balance", {
+                const response = await axios.get("https://paytm-hazel.vercel.app/api/v1/account/balance", {
                     headers: {
                         Authorization: "Bearer " + localStorage.getItem("token"),
                     },

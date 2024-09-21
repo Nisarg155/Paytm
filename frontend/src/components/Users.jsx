@@ -65,7 +65,7 @@ export const Users = () => {
     const [filter, setFilter] = useState("");
 
     useEffect(() => {
-        axios.get(`http://localhost:4000/api/v1/user/bulk${filter ? `?filter=${filter}` : ""}`)
+        axios.get(`https://paytm-hazel.vercel.app/api/v1/user/bulk${filter ? `?filter=${filter}` : ""}`)
             .then(response => {
                 setUsers(response.data.user);
             })
